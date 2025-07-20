@@ -1,11 +1,12 @@
-import { apple, bill, google } from "@/public/assets";
+import { apple, bill, google, megaphone } from "@/public/assets";
 import styles, { layout } from "@/styles/style";
 import Image from "next/image";
+import Button from "./Button";
 const Billing: React.FC = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <Image
-        src={bill}
+        src={megaphone}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
       />
@@ -14,25 +15,15 @@ const Billing: React.FC = () => (
     </div>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing.
+        Advocating for Responsible
+       <br className="sm:block hidden" /> Digital Citizenship
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Integer Fusce ipsum ori rhounsx aliporttitor integer platea
-        placerat.
+        Our advocacy efforts are centered around promoting positive online interactions, combating misinformation, and encouraging critical thinking. 
+        Be a part of our movement to make the digital space a place of respect, integrity, and responsibility.
       </p>
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <Image
-          src={apple}
-          alt="apple_store"
-          className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"
-        />
-        <Image
-          src={google}
-          alt="google_play"
-          className="w-[128px] h-[42px] object-contain cursor-pointer"
-        />
+        <Button styles="mt-10" />
       </div>
     </div>
   </section>

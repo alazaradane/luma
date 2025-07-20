@@ -7,6 +7,7 @@ export interface FeatredCardProps {
 
 export interface ButtonProps {
     styles?: string;
+    istrue?: boolean;
 }
 
 export interface FeedBackProps {

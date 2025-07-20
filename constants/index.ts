@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "@/public/assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, fetih, eline, avatar, eng, meta, lalo, fna } from "@/public/assets";
 
 export const navLinks = [
     {
@@ -6,16 +6,16 @@ export const navLinks = [
         title: "Home",
     },
     {
-        id: "features",
-        title: "Features",
+        id: "about",
+        title: "About",
     },
     {
-        id: "product",
-        title: "Product",
+        id: "olympiad",
+        title: "Olympiad ",
     },
     {
-        id: "clients",
-        title: "Clients",
+        id: "contact",
+        title: "Contact Us",
     },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
     {
         id: "feature-1",
         icon: star,
-        title: "Rewards",
+        title: "Online Safety",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "The best digital literacy practices offer tips on staying safe and secure online.",
     },
     {
         id: "feature-2",
         icon: shield,
         title: "100% Secured",
         content:
-            "We take proactive steps make sure your information and transactions are secure.",
+            "We take proactive steps to ensure your information and online activities are secure.",
     },
     {
         id: "feature-3",
         icon: send,
-        title: "Balance Transfer",
+        title: "Skill Building",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "Enhance your digital skills with resources that help you navigate and utilize technology effectively.",
     },
 ];
 
@@ -47,110 +47,106 @@ export const feedback = [
     {
         id: "feedback-1",
         content:
-            "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
-        img: people01,
+            "I'm a living proof of the Program's engaging force. I was invested in the vibrant motive of ENG to foster digital literacy in such an amazing experience. I , with the diverse verse of the program, look forward to create a holistic impact on the digital society .",
+        name: "Fetih Girma",
+        title: "Researcher at SSGI",
+        img: fetih,
     },
     {
         id: "feedback-2",
         content:
-            "Money makes your life easier. If you're lucky to have it, you're lucky.",
-        name: "Steve Mark",
-        title: "Founder & Leader",
-        img: people02,
+            "As a trainer, I found Prime to be an excellent resource. It offers valuable guidance on managing social media and has significantly helped me improve my digital skills.",
+        name: "Nuhamin Sintayehu",
+        title: "Trainer",
+        img: eline,
     },
     {
         id: "feedback-3",
         content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
-        img: people03,
+            "As a digital marketer, I found LUMA to be an outstanding team. they provides practical insights on navigating online platforms and has greatly enhanced my digital literacy skills.",
+        name: "Ahmed Mohammed",
+        title: "Digital Marker",
+        img: avatar,
     },
 ];
 
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Youth Empowered",
+        value: "100+",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "Schools & Communities Reached",
+        value: "10+",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Cost to Participants",
+        value: "$0",
     },
 ];
 
 export const footerLinks = [
     {
         id: "footerLinks-1",
-        title: "Useful Links",
+        title: "Programs",
         links: [
             {
-                name: "Content",
+                name: "Digital Literacy Bootcamps",
                 link: "https://www.hoobank.com/content/",
             },
             {
-                name: "How it Works",
+                name: "Online Wellbeing Campaigns",
                 link: "https://www.hoobank.com/how-it-works/",
             },
             {
-                name: "Create",
+                name: "Youth Ambassadors",
                 link: "https://www.hoobank.com/create/",
             },
             {
-                name: "Explore",
+                name: "Workshops & Webinars",
                 link: "https://www.hoobank.com/explore/",
-            },
-            {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
-            },
+            }
         ],
     },
     {
         id: "footerLinks-2",
-        title: "Community",
+        title: "Explore",
         links: [
             {
-                name: "Help Center",
+                name: "About Us",
                 link: "https://www.hoobank.com/help-center/",
             },
             {
-                name: "Partners",
+                name: "Our Mission",
                 link: "https://www.hoobank.com/partners/",
             },
             {
-                name: "Suggestions",
+                name: "Join as Volunteers",
                 link: "https://www.hoobank.com/suggestions/",
             },
             {
-                name: "Blog",
+                name: "Impact Stories",
                 link: "https://www.hoobank.com/blog/",
             },
             {
-                name: "Newsletters",
+                name: "FAQs",
                 link: "https://www.hoobank.com/newsletters/",
             },
         ],
     },
     {
         id: "footerLinks-3",
-        title: "Partner",
+        title: "Community",
         links: [
             {
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
+                name: "Join as Volunteer",
+                link: "https://www.hoobank.com/JoinasVolunteer/",
             },
             {
-                name: "Become a Partner",
+                name: "Become a Youth Ambassador",
                 link: "https://www.hoobank.com/become-a-partner/",
             },
         ],
@@ -183,18 +179,18 @@ export const socialMedia = [
 export const clients = [
     {
         id: "client-1",
-        logo: airbnb,
+        logo: eng,
     },
     {
         id: "client-2",
-        logo: binance,
+        logo: meta,
     },
     {
         id: "client-3",
-        logo: coinbase,
+        logo: lalo,
     },
     {
         id: "client-4",
-        logo: dropbox,
+        logo: fna,
     },
 ];

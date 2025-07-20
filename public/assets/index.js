@@ -23,8 +23,28 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import hero from './luma.png';
+import megaphone from './megaphone.png';
+import social from './socialmedia.png'
+import fetih from './fetih_girma (1).jpg'
+import eline from './elini (1).jpg'
+import avatar from './avatar.jpg'
+import eng from './engeth.png'
+import meta from './meta.png'
+import lalo from './lalo.png'
+import fna from './fna (1).png'
 
 export {
+  fna,
+  lalo,
+  meta,
+  eng,
+  avatar,
+  fetih,
+  eline,
+  social,
+  megaphone,
+  hero,
   airbnb,
   bill,
   binance,
